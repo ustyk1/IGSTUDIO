@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -511,4 +511,433 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-\[24px\] {
+  margin-bottom: 24px;
+}
+
+.mb-\[150px\] {
+  margin-bottom: 150px;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[74px\] {
+  height: 74px;
+}
+
+.h-\[62px\] {
+  height: 62px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[438px\] {
+  width: 438px;
+}
+
+.w-\[137px\] {
+  width: 137px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.min-w-\[300px\] {
+  min-width: 300px;
+}
+
+.min-w-\[350px\] {
+  min-width: 350px;
+}
+
+.min-w-\[280px\] {
+  min-width: 280px;
+}
+
+.min-w-\[150px\] {
+  min-width: 150px;
+}
+
+.min-w-\[100px\] {
+  min-width: 100px;
+}
+
+.max-w-\[1240px\] {
+  max-width: 1240px;
+}
+
+.max-w-\[470px\] {
+  max-width: 470px;
+}
+
+.max-w-\[360px\] {
+  max-width: 360px;
+}
+
+.max-w-\[438px\] {
+  max-width: 438px;
+}
+
+.max-w-\[137px\] {
+  max-width: 137px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-\[91px\] {
+  gap: 91px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.gap-\[90px\] {
+  gap: 90px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.rounded-\[43px\] {
+  border-radius: 43px;
+}
+
+.rounded-\[55px\] {
+  border-radius: 55px;
+}
+
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-white-rgba-03 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-x-yellow {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(227 183 72 / var(--tw-border-opacity));
+  border-right-color: rgb(227 183 72 / var(--tw-border-opacity));
+}
+
+.border-b-yellow {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(227 183 72 / var(--tw-border-opacity));
+}
+
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-gray-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 46 46 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 183 72 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-white-rgba-03 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-black-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.p-\[6px\] {
+  padding: 6px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-\[36px\] {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pb-\[200px\] {
+  padding-bottom: 200px;
+}
+
+.pb-\[150px\] {
+  padding-bottom: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[66px\] {
+  font-size: 66px;
+}
+
+.text-\[54px\] {
+  font-size: 54px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[36px\] {
+  font-size: 36px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[97px\] {
+  line-height: 97px;
+}
+
+.leading-\[77px\] {
+  line-height: 77px;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-white-rgba-03 {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.opacity-\[0\.3\] {
+  opacity: 0.3;
+}
+
+/* @layer components {
+  .container {
+    @apply mobile:max-w-[600px] tablet:max-w-[900px] desktop:max-w-[1200px];
+  }
+} */
+
+.hover\:bg-gray-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.active\:scale-\[0\.95\]:active {
+  --tw-scale-x: 0.95;
+  --tw-scale-y: 0.95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-\[66px\] {
+    font-size: 66px;
+  }
+
+  .sm\:text-\[48px\] {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:gap-\[91px\] {
+    gap: 91px;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-right {
+    text-align: right;
+  }
+
+  .lg\:text-\[66px\] {
+    font-size: 66px;
+  }
 }
